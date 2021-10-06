@@ -19,7 +19,7 @@ public class SueldoSemanalHasta50Horas {
         if(horas_trabajadas>50)
         {
             sueldo_semanal=0;
-            System.out.println("No est\u00E1 permitido.");
+            System.out.println("No esta permitido.");
         }
         System.out.println("Valor de sueldo semanal: " + sueldo_semanal);
     }

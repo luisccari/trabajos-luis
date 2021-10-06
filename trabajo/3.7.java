@@ -25,7 +25,7 @@ public class BecasMensualesAsignadasPorElPresidente {
         if(edad>18&&promedio>=6&&promedio<8)
             beca=100;
         if(promedio<6)
-            System.out.println("Se env\u00EDa carta de invitaci\u00F3n a estudiar m\u00E1s");
+            System.out.println("Se envia carta de invitacion a estudiar mas");
         System.out.println("Valor de beca: " + beca);
     }
 

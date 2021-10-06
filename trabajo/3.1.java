@@ -9,9 +9,9 @@ public class EdadParaVotar {
         edad = in.nextInt();
         in.nextLine();
         if(edad>=18)
-            System.out.println("S\u00ED puede votar en las pr\u00F3ximas elecciones.");
+            System.out.println("Si puede votar en las proximas elecciones.");
         else
-            System.out.println("No puede votar en las pr\u00F3ximas elecciones.");
+            System.out.println("No puede votar en las proximas elecciones.");
     }
 
 }

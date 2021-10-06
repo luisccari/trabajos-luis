@@ -11,13 +11,13 @@ public class SeguroPorCoberturaAmpliaYDanosATerceros {
         in.nextLine();
         System.out.println("Selecciona el valor de tipo de poliza.");
         System.out.println("\t1.- A cobertura amplia");
-        System.out.println("\t2.- B da\u00F1os a terceros");
+        System.out.println("\t2.- B datos a terceros");
         System.out.print("\t: ");
         do {
             tipo_de_poliza = in.nextInt();
             in.nextLine();
             if (tipo_de_poliza<1||tipo_de_poliza>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (tipo_de_poliza<1||tipo_de_poliza>2);
         System.out.println("Selecciona el valor de toma alcohol.");
         System.out.println("\t1.- si");
@@ -27,7 +27,7 @@ public class SeguroPorCoberturaAmpliaYDanosATerceros {
             toma_alcohol = in.nextInt();
             in.nextLine();
             if (toma_alcohol<1||toma_alcohol>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (toma_alcohol<1||toma_alcohol>2);
         System.out.println("Selecciona el valor de utiliza lentes.");
         System.out.println("\t1.- si");
@@ -37,7 +37,7 @@ public class SeguroPorCoberturaAmpliaYDanosATerceros {
             utiliza_lentes = in.nextInt();
             in.nextLine();
             if (utiliza_lentes<1||utiliza_lentes>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (utiliza_lentes<1||utiliza_lentes>2);
         System.out.println("Selecciona el valor de padece enfermedad.");
         System.out.println("\t1.- si");
@@ -47,7 +47,7 @@ public class SeguroPorCoberturaAmpliaYDanosATerceros {
             padece_enfermedad = in.nextInt();
             in.nextLine();
             if (padece_enfermedad<1||padece_enfermedad>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (padece_enfermedad<1||padece_enfermedad>2);
         if(tipo_de_poliza==1)
             cuota=1200;

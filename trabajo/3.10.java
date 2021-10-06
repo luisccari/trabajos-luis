@@ -12,7 +12,7 @@ public class LineaDeAutobusesLaTortuga {
         presupuesto = in.nextDouble();
         in.nextLine();
         if(costo_por_km*750*2<=presupuesto)
-            System.out.println("M\u00E9xico");
+            System.out.println("Mexico");
         else
             System.out.println("Quedarse en casa");
         if(costo_por_km*800*2<=presupuesto)
@@ -20,7 +20,7 @@ public class LineaDeAutobusesLaTortuga {
         if(costo_por_km*1200*2<=presupuesto)
             System.out.println("Puerto Vallarta");
         if(costo_por_km*1800*2<=presupuesto)
-            System.out.println("Canc\u00FAn");
+            System.out.println("Cancun");
     }
 
 }

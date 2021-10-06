@@ -13,13 +13,13 @@ public class DiaDeLaSemana {
         if(dia_de_la_semana==2)
             System.out.println("Martes");
         if(dia_de_la_semana==3)
-            System.out.println("Mi\u00E9rcoles");
+            System.out.println("Miercoles");
         if(dia_de_la_semana==4)
             System.out.println("Jueves");
         if(dia_de_la_semana==5)
             System.out.println("Viernes");
         if(dia_de_la_semana==6)
-            System.out.println("S\u00E1bado");
+            System.out.println("Sabado");
         if(dia_de_la_semana==7)
             System.out.println("Domingo");
         if(dia_de_la_semana<1||dia_de_la_semana>7)

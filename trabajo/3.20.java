@@ -21,7 +21,7 @@ public class GananciasDeUnaFabricaDePantalones {
             modelo = in.nextInt();
             in.nextLine();
             if (modelo<1||modelo>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (modelo<1||modelo>2);
         System.out.println("Selecciona el valor de talla.");
         System.out.println("\t1.- 30");
@@ -32,7 +32,7 @@ public class GananciasDeUnaFabricaDePantalones {
             talla = in.nextInt();
             in.nextLine();
             if (talla<1||talla>3)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (talla<1||talla>3);
         if(modelo==1)
             metros_de_tela=1.5*N_pantalones;

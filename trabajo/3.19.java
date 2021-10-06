@@ -16,7 +16,7 @@ public class VacunaDeTipoABYC {
             sexo = in.nextInt();
             in.nextLine();
             if (sexo<1||sexo>2)
-                System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
         } while (sexo<1||sexo>2);
         if((sexo==2&&edad>=16&&edad<70)||edad<16)
             System.out.println("A");

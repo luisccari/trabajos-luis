@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class ClienteDeUnBanco {
-
+public class ClienteDeUnBancoLFGC {
+//declarar variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int i, n;
+        //datos de entrada
         double cantidad_01_enero, cantidad_02_febrero, cantidad_03_marzo, cantidad_04_abril, cantidad_05_mayo;
         double cantidad_06_junio, cantidad_07_julio, cantidad_08_agosto, cantidad_09_septiembre, cantidad_10_octubre;
         double cantidad_11_noviembre, cantidad_12_diciembre, intereses, inversion_final, total;
@@ -14,7 +15,7 @@ public class ClienteDeUnBanco {
         in.nextLine();
         for (i=1; i<=n; i++) {
             System.out.print("PROCESO " + i);
-            System.out.print("Ingresa el valor de cantidad 01 enero: ");
+            System.out.print(" Ingresa el valor de cantidad 01 enero: ");
             cantidad_01_enero = in.nextDouble();
             in.nextLine();
             System.out.print("Ingresa el valor de cantidad 02 febrero: ");
@@ -50,9 +51,11 @@ public class ClienteDeUnBanco {
             System.out.print("Ingresa el valor de cantidad 12 diciembre: ");
             cantidad_12_diciembre = in.nextDouble();
             in.nextLine();
+            //proceso
             intereses=total*0.1;
             total=total+intereses+cantidad_01_enero+cantidad_02_febrero+cantidad_03_marzo+cantidad_04_abril+cantidad_05_mayo+cantidad_06_junio+cantidad_07_julio+cantidad_08_agosto+cantidad_09_septiembre+cantidad_10_octubre+cantidad_11_noviembre+cantidad_12_diciembre;
             inversion_final=total;
+            //datos de salida
             System.out.println("Valor de intereses: " + intereses);
             System.out.println("Valor de inversion final: " + inversion_final);
             System.out.println();
@@ -60,4 +63,4 @@ public class ClienteDeUnBanco {
         System.out.println("Valor de total: " + total);
     }
 
-}
+}//LFGC

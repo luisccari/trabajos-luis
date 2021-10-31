@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class FuncionExponencial {
-
+public class FuncionExponencialLFGC {
+//declarar variables
     public static void main(String[] args) {
         int i, n;
+        //datos de entrada
         double ex, factorial, x;
         ex = 0;
         factorial = 0;
@@ -13,6 +14,7 @@ public class FuncionExponencial {
         System.out.print("Ingresa el valor de n: ");
         n = in.nextInt();
         in.nextLine();
+        //proceso
         for (i=1; i<=n; i++) {
             System.out.print("PROCESO " + i);
             if(i==1)
@@ -24,8 +26,9 @@ public class FuncionExponencial {
             ex=ex+Math.pow(x,i)/factorial;
             System.out.println();
         }
+        //datos de salida
         System.out.println("Valor de ex: " + ex);
         System.out.println("Valor de factorial: " + factorial);
     }
 
-}
+}//LFGC

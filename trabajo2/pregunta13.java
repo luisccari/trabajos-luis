@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class TotalesDeNVentas {
-
+public class TotalesDeNVentasLFGC {
+//declarar variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //datos de entrada
         int i, n, ventas_de_0_a_10000, ventas_de_10000_a_20000;
         double monto_global, monto_ventas_de_0_a_10000, monto_ventas_de_10000_a_20000, venta;
         ventas_de_0_a_10000 = 0;
@@ -19,6 +20,7 @@ public class TotalesDeNVentas {
             System.out.print("Ingresa el valor de venta: ");
             venta = in.nextDouble();
             in.nextLine();
+            //proceso
             if(venta<=10000)
             {
                 ventas_de_0_a_10000=ventas_de_0_a_10000+1;
@@ -32,6 +34,7 @@ public class TotalesDeNVentas {
             monto_global=monto_global+venta;
             System.out.println();
         }
+        //datos de salida
         System.out.println("Valor de ventas de 0 a 10000: " + ventas_de_0_a_10000);
         System.out.println("Valor de ventas de 10000 a 20000: " + ventas_de_10000_a_20000);
         System.out.println("Valor de monto ventas de 0 a 10000: " + monto_ventas_de_0_a_10000);
@@ -39,4 +42,4 @@ public class TotalesDeNVentas {
         System.out.println("Valor de monto global: " + monto_global);
     }
 
-}
+}//LFGC

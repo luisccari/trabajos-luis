@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class TotalDeUnaCajaRegistradora {
-
+public class TotalDeUnaCajaRegistradoraLFGC {
+//declarar variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //datos de entrada
         int billetes_de_100, billetes_de_1000, billetes_de_20, billetes_de_200, billetes_de_50;
         int billetes_de_500, monedas_de_1, monedas_de_10, monedas_de_2, monedas_de_20;
         int monedas_de_5, total;
@@ -40,8 +41,10 @@ public class TotalDeUnaCajaRegistradora {
         System.out.print("Ingresa el valor de monedas de 5: ");
         monedas_de_5 = in.nextInt();
         in.nextLine();
+        //proceso 
         total=billetes_de_1000*1000+billetes_de_500*500+billetes_de_200*200+billetes_de_100*100+billetes_de_50*50+billetes_de_20*20+monedas_de_20*20+monedas_de_10*10+monedas_de_5*5+monedas_de_2*2+monedas_de_1;
+        //datos de salida
         System.out.println("Valor de total: " + total);
     }
 
-}
+}//LFGC

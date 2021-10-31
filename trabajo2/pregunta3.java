@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class CantidadesCeroMenoresYMayores {
-
+public class CantidadesCeroMenoresYMayoresLFGC {
+//declar de variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //datos de entrada
         int cantidades_cero, i, mayores_a_cero, menores_a_cero, n;
         double cantidad;
         cantidades_cero = 0;
@@ -15,6 +16,7 @@ public class CantidadesCeroMenoresYMayores {
         for (i=1; i<=n; i++) {
             System.out.print("PROCESO " + i);
             System.out.print("Ingresa el valor de cantidad: ");
+            //proceso
             cantidad = in.nextDouble();
             in.nextLine();
             if(cantidad==0)
@@ -25,9 +27,10 @@ public class CantidadesCeroMenoresYMayores {
                 mayores_a_cero=mayores_a_cero+1;
             System.out.println();
         }
+        //datos de salida
         System.out.println("Valor de cantidades cero: " + cantidades_cero);
         System.out.println("Valor de menores a cero: " + menores_a_cero);
         System.out.println("Valor de mayores a cero: " + mayores_a_cero);
     }
 
-}
+}//LFGC

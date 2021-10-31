@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class FabricaDeFocos {
-
+public class FabricaDeFocosLFGC {
+//declara variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //datos de entrada
         int color, focos_blancos, focos_rojos, focos_verdes, i;
         int n;
         focos_verdes = 0;
@@ -20,10 +21,11 @@ public class FabricaDeFocos {
             System.out.println("\t3.- rojo");
             System.out.print("\t: ");
             do {
+              //proceso
                 color = in.nextInt();
                 in.nextLine();
                 if (color<1||color>3)
-                    System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
+                    System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
             } while (color<1||color>3);
             if(color==1)
                 focos_verdes=focos_verdes+1;
@@ -33,9 +35,10 @@ public class FabricaDeFocos {
                 focos_rojos=focos_rojos+1;
             System.out.println();
         }
+        //datos de salida
         System.out.println("Valor de focos verdes: " + focos_verdes);
         System.out.println("Valor de focos blancos: " + focos_blancos);
         System.out.println("Valor de focos rojos: " + focos_rojos);
     }
 
-}
+}//LFGC

@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class ElNaufragoSatisfecho {
-
+public class ElNaufragoSatisfechoLFGC {
+//declarar variables
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        //datos de entrada
         int forma_de_pago, i, n, tipo_de_hamburguesa;
         double cargo, costo, pago;
         pago = 0;
@@ -22,6 +23,7 @@ public class ElNaufragoSatisfecho {
                 in.nextLine();
                 if (tipo_de_hamburguesa<1||tipo_de_hamburguesa>3)
                     System.out.print("Valor incorrecto. Ingresalo nuevamente.: ");
+                    //proceso
             } while (tipo_de_hamburguesa<1||tipo_de_hamburguesa>3);
             costo=0;
             if(tipo_de_hamburguesa==1)
@@ -45,6 +47,7 @@ public class ElNaufragoSatisfecho {
             else
                 cargo=costo*0.05;
             pago=pago+costo+cargo;
+            //datos de salida
             System.out.println("Valor de cargo: " + cargo);
             System.out.println("Valor de costo: " + costo);
             System.out.println();
@@ -52,4 +55,4 @@ public class ElNaufragoSatisfecho {
         System.out.println("Valor de pago: " + pago);
     }
 
-}
+}//LFGC
